@@ -1,0 +1,4 @@
+- Here's a script that installs postgresql on Ubuntu and Debian Distros
+- Besides installing Postgresql, it creates a password for the postgres user on the machine if the postgres user does not have a password.
+- It also creates a role with a password and assigns a database to the created role.
+- Then it configures Postgresql to listen on any IP address ('*') and grants client access from across the internet.
